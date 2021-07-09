@@ -1,0 +1,174 @@
+TpTrace Information: 0 : 34924, 1, 2021/07/09, 17:52:46.668, 15872865183319, testhost.dll, DefaultEngineInvoker.Invoke: Testhost process started with args :[--port, 50302],[--endpoint, 127.0.0.1:050302],[--role, client],[--parentprocessid, 38896],[--diag, C:\Users\joao.paes\Documents\work\ApiEscola\Controller.Specs\bin\Debug\netcoreapp3.1\fine-code-coverage\coverage-tool-output\diagnostics.host.21-07-09_17-52-46_37559_4.log],[--tracelevel, 4],[--datacollectionport, 50301],[--telemetryoptedin, false]
+TpTrace Information: 0 : 34924, 1, 2021/07/09, 17:52:46.673, 15872865215335, testhost.dll, DefaultEngineInvoker.SetParentProcessExitCallback: Monitoring parent process with id: '38896'
+TpTrace Information: 0 : 34924, 1, 2021/07/09, 17:52:46.683, 15872865316534, testhost.dll, DefaultEngineInvoker.GetConnectionInfo: Initialize communication on endpoint address: '127.0.0.1:050302'
+TpTrace Information: 0 : 34924, 1, 2021/07/09, 17:52:46.702, 15872865506416, testhost.dll, SocketClient.Start: connecting to server endpoint: 127.0.0.1:050302
+TpTrace Information: 0 : 34924, 1, 2021/07/09, 17:52:46.708, 15872865569891, testhost.dll, DefaultEngineInvoker.ConnectToDatacollector: Connecting to datacollector, port: 50301
+TpTrace Information: 0 : 34924, 5, 2021/07/09, 17:52:46.712, 15872865605982, testhost.dll, SocketClient.OnServerConnected: connected to server endpoint: 127.0.0.1:050302
+TpTrace Information: 0 : 34924, 1, 2021/07/09, 17:52:46.713, 15872865621987, testhost.dll, Trying to connect to server on socket : 127.0.0.1:50301 
+TpTrace Verbose: 0 : 34924, 5, 2021/07/09, 17:52:46.714, 15872865629923, testhost.dll, Connected to server, and starting MessageLoopAsync
+TpTrace Verbose: 0 : 34924, 1, 2021/07/09, 17:52:46.714, 15872865629922, testhost.dll, SocketCommunicationManager : SetupClientAsync : Attempting to connect to the server.
+TpTrace Information: 0 : 34924, 10, 2021/07/09, 17:52:46.716, 15872865652733, testhost.dll, Connected to the server successfully 
+TpTrace Information: 0 : 34924, 10, 2021/07/09, 17:52:46.717, 15872865653999, testhost.dll, Using the buffer size of 16384 bytes
+TpTrace Information: 0 : 34924, 1, 2021/07/09, 17:52:46.717, 15872865661483, testhost.dll, DefaultEngineInvoker.Invoke: Start Request Processing.
+TpTrace Information: 0 : 34924, 11, 2021/07/09, 17:52:46.718, 15872865672173, testhost.dll, DefaultEngineInvoker.StartProcessingAsync: Connected to vstest.console, Starting process requests.
+TpTrace Verbose: 0 : 34924, 9, 2021/07/09, 17:52:46.719, 15872865674849, testhost.dll, TcpClientExtensions.MessageLoopAsync: Polling on remoteEndPoint: [::ffff:127.0.0.1]:50302 localEndPoint: [::ffff:127.0.0.1]:50303
+TpTrace Verbose: 0 : 34924, 9, 2021/07/09, 17:52:46.719, 15872865681717, testhost.dll, TcpClientExtensions.MessageLoopAsync: NotifyDataAvailable remoteEndPoint: [::ffff:127.0.0.1]:50302 localEndPoint: [::ffff:127.0.0.1]:50303
+TpTrace Information: 0 : 34924, 9, 2021/07/09, 17:52:46.861, 15872867095408, testhost.dll, TestRequestHandler.ProcessRequests: received message: (ProtocolVersion) -> 5
+TpTrace Verbose: 0 : 34924, 9, 2021/07/09, 17:52:46.900, 15872867484915, testhost.dll, TestRequestHandler.SendData:  sending data from testhost: {"Version":2,"MessageType":"TestSession.Message","Payload":{"MessageLevel":0,"Message":"Registro em log do diagnóstico TestHost no arquivo: C:\\Users\\joao.paes\\Documents\\work\\ApiEscola\\Controller.Specs\\bin\\Debug\\netcoreapp3.1\\fine-code-coverage\\coverage-tool-output\\diagnostics.host.21-07-09_17-52-46_37559_4.log"}}
+TpTrace Verbose: 0 : 34924, 9, 2021/07/09, 17:52:46.900, 15872867489689, testhost.dll, TcpClientExtensions.MessageLoopAsync: Polling on remoteEndPoint: [::ffff:127.0.0.1]:50302 localEndPoint: [::ffff:127.0.0.1]:50303
+TpTrace Verbose: 0 : 34924, 9, 2021/07/09, 17:52:46.900, 15872867490347, testhost.dll, TcpClientExtensions.MessageLoopAsync: NotifyDataAvailable remoteEndPoint: [::ffff:127.0.0.1]:50302 localEndPoint: [::ffff:127.0.0.1]:50303
+TpTrace Information: 0 : 34924, 9, 2021/07/09, 17:52:46.904, 15872867527168, testhost.dll, TestRequestHandler.ProcessRequests: received message: (TestExecution.Initialize) -> [
+  "C:\\Users\\joao.paes\\Documents\\work\\ApiEscola\\Controller.Specs\\bin\\Debug\\netcoreapp3.1\\fine-code-coverage\\build-output\\NUnit3.TestAdapter.dll"
+]
+TpTrace Information: 0 : 34924, 9, 2021/07/09, 17:52:46.904, 15872867529110, testhost.dll, Execution Session Initialize.
+TpTrace Verbose: 0 : 34924, 9, 2021/07/09, 17:52:46.912, 15872867607117, testhost.dll, TcpClientExtensions.MessageLoopAsync: Polling on remoteEndPoint: [::ffff:127.0.0.1]:50302 localEndPoint: [::ffff:127.0.0.1]:50303
+TpTrace Verbose: 0 : 34924, 9, 2021/07/09, 17:52:46.912, 15872867608729, testhost.dll, TcpClientExtensions.MessageLoopAsync: NotifyDataAvailable remoteEndPoint: [::ffff:127.0.0.1]:50302 localEndPoint: [::ffff:127.0.0.1]:50303
+TpTrace Verbose: 0 : 34924, 4, 2021/07/09, 17:52:46.915, 15872867635148, testhost.dll, TestExecutorService: Loading the extensions
+TpTrace Information: 0 : 34924, 9, 2021/07/09, 17:52:46.915, 15872867641385, testhost.dll, TestRequestHandler.ProcessRequests: received message: (TestExecution.StartWithSources) -> {
+  "AdapterSourceMap": {
+    "_none_": [
+      "C:\\Users\\joao.paes\\Documents\\work\\ApiEscola\\Controller.Specs\\bin\\Debug\\netcoreapp3.1\\fine-code-coverage\\build-output\\Controller.Specs.dll"
+    ]
+  },
+  "RunSettings": "<RunSettings>\r\n  <RunConfiguration>\r\n    <ResultsDirectory>C:\\Users\\joao.paes\\Documents\\work\\ApiEscola\\Controller.Specs\\bin\\Debug\\netcoreapp3.1\\fine-code-coverage\\coverage-tool-output</ResultsDirectory>\r\n    <TargetPlatform>X64</TargetPlatform>\r\n    <TargetFrameworkVersion>.NETCoreApp,Version=v3.1</TargetFrameworkVersion>\r\n    <DesignMode>False</DesignMode>\r\n    <CollectSourceInformation>False</CollectSourceInformation>\r\n  </RunConfiguration>\r\n  <LoggerRunSettings>\r\n    <Loggers>\r\n      <Logger friendlyName=\"blame\" enabled=\"True\" />\r\n      <Logger friendlyName=\"Console\" uri=\"logger://microsoft/TestPlatform/ConsoleLogger/v1\" assemblyQualifiedName=\"Microsoft.VisualStudio.TestPlatform.CommandLine.Internal.ConsoleLogger, vstest.console, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\" codeBase=\"C:\\Program Files\\dotnet\\sdk\\5.0.201\\vstest.console.dll\" enabled=\"True\" />\r\n    </Loggers>\r\n  </LoggerRunSettings>\r\n  <DataCollectionRunSettings>\r\n    <DataCollectors>\r\n      <DataCollector friendlyName=\"blame\" enabled=\"True\">\r\n        <Configuration>\r\n          <ResultsDirectory>C:\\Users\\joao.paes\\Documents\\work\\ApiEscola\\Controller.Specs\\bin\\Debug\\netcoreapp3.1\\fine-code-coverage\\coverage-tool-output</ResultsDirectory>\r\n        </Configuration>\r\n      </DataCollector>\r\n    </DataCollectors>\r\n  </DataCollectionRunSettings>\r\n</RunSettings>",
+  "TestExecutionContext": {
+    "FrequencyOfRunStatsChangeEvent": 10,
+    "RunStatsChangeEventTimeout": "00:00:01.5000000",
+    "InIsolation": false,
+    "KeepAlive": false,
+    "AreTestCaseLevelEventsRequired": false,
+    "IsDebug": false,
+    "TestCaseFilter": null,
+    "FilterOptions": null
+  },
+  "Package": null
+}
+TpTrace Information: 0 : 34924, 9, 2021/07/09, 17:52:46.915, 15872867642735, testhost.dll, Execution started.
+TpTrace Verbose: 0 : 34924, 4, 2021/07/09, 17:52:46.917, 15872867653656, testhost.dll, TestPluginCache.DiscoverTestExtensions: finding test extensions in assemblies endswith: TestAdapter.dll TPluginInfo: Microsoft.VisualStudio.TestPlatform.Common.ExtensionFramework.Utilities.TestExecutorPluginInformation TExtension: Microsoft.VisualStudio.TestPlatform.ObjectModel.Adapter.ITestExecutor
+TpTrace Verbose: 0 : 34924, 4, 2021/07/09, 17:52:46.918, 15872867663134, testhost.dll, TestPluginCache.GetExtensionPaths: Filtered extension paths: 
+TpTrace Verbose: 0 : 34924, 4, 2021/07/09, 17:52:46.918, 15872867666340, testhost.dll, TestPluginCache.GetExtensionPaths: Added default extension paths: C:\Users\joao.paes\Documents\work\ApiEscola\Controller.Specs\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output\NUnit3.TestAdapter.dll
+TpTrace Verbose: 0 : 34924, 4, 2021/07/09, 17:52:46.918, 15872867666851, testhost.dll, TestPluginCache.GetExtensionPaths: Added unfilterableExtensionPaths: 
+TpTrace Information: 0 : 34924, 4, 2021/07/09, 17:52:46.921, 15872867694854, testhost.dll, AssemblyResolver.ctor: Creating AssemblyResolver with searchDirectories C:\Users\joao.paes\Documents\work\ApiEscola\Controller.Specs\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output
+TpTrace Verbose: 0 : 34924, 4, 2021/07/09, 17:52:46.923, 15872867721574, testhost.dll, TestPluginCache.DiscoverTestExtensions: Discovering the extensions using extension path.
+TpTrace Verbose: 0 : 34924, 4, 2021/07/09, 17:52:46.924, 15872867723000, testhost.dll, TestPluginCache.GetExtensionPaths: Filtered extension paths: 
+TpTrace Verbose: 0 : 34924, 4, 2021/07/09, 17:52:46.924, 15872867723460, testhost.dll, TestPluginCache.GetExtensionPaths: Added default extension paths: C:\Users\joao.paes\Documents\work\ApiEscola\Controller.Specs\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output\NUnit3.TestAdapter.dll
+TpTrace Verbose: 0 : 34924, 4, 2021/07/09, 17:52:46.924, 15872867723754, testhost.dll, TestPluginCache.GetExtensionPaths: Added unfilterableExtensionPaths: 
+TpTrace Verbose: 0 : 34924, 4, 2021/07/09, 17:52:46.924, 15872867724334, testhost.dll, TestPluginCache.DiscoverTestExtensions: Discovering the extensions using allExtensionPaths: C:\Users\joao.paes\Documents\work\ApiEscola\Controller.Specs\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output\NUnit3.TestAdapter.dll
+TpTrace Information: 0 : 34924, 4, 2021/07/09, 17:52:46.925, 15872867734501, testhost.dll, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Users\joao.paes\Documents\work\ApiEscola\Controller.Specs\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output
+TpTrace Information: 0 : 34924, 4, 2021/07/09, 17:52:46.931, 15872867798012, testhost.dll, AssemblyResolver.OnResolve: NUnit3.TestAdapter: Resolving assembly.
+TpTrace Information: 0 : 34924, 4, 2021/07/09, 17:52:46.934, 15872867823022, testhost.dll, AssemblyResolver.OnResolve: Resolved assembly: NUnit3.TestAdapter, from path: C:\Users\joao.paes\Documents\work\ApiEscola\Controller.Specs\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output\NUnit3.TestAdapter.dll
+TpTrace Information: 0 : 34924, 4, 2021/07/09, 17:52:46.936, 15872867844444, testhost.dll, AssemblyResolver.OnResolve: nunit.engine.api: Resolving assembly.
+TpTrace Information: 0 : 34924, 4, 2021/07/09, 17:52:46.937, 15872867853607, testhost.dll, AssemblyResolver.OnResolve: Resolved assembly: nunit.engine.api, from path: C:\Users\joao.paes\Documents\work\ApiEscola\Controller.Specs\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output\nunit.engine.api.dll
+TpTrace Verbose: 0 : 34924, 4, 2021/07/09, 17:52:46.943, 15872867912810, testhost.dll, TestPluginCache: Discovered the extensions using extension path ''.
+TpTrace Verbose: 0 : 34924, 4, 2021/07/09, 17:52:46.944, 15872867923319, testhost.dll, TestPluginCache: Discoverers are ''.
+TpTrace Verbose: 0 : 34924, 4, 2021/07/09, 17:52:46.944, 15872867925136, testhost.dll, TestPluginCache: Executors are 'executor://NUnit3TestExecutor'.
+TpTrace Verbose: 0 : 34924, 4, 2021/07/09, 17:52:46.944, 15872867927032, testhost.dll, TestPluginCache: Setting providers are ''.
+TpTrace Verbose: 0 : 34924, 4, 2021/07/09, 17:52:46.944, 15872867929163, testhost.dll, TestPluginCache: Loggers are ''.
+TpTrace Verbose: 0 : 34924, 9, 2021/07/09, 17:52:46.949, 15872867978665, testhost.dll, TcpClientExtensions.MessageLoopAsync: Polling on remoteEndPoint: [::ffff:127.0.0.1]:50302 localEndPoint: [::ffff:127.0.0.1]:50303
+TpTrace Information: 0 : 34924, 4, 2021/07/09, 17:52:46.953, 15872868022464, testhost.dll, TestPluginManager.CreateTestExtension: Attempting to load test extension: NUnit.VisualStudio.TestAdapter.NUnit3TestExecutor
+TpTrace Verbose: 0 : 34924, 4, 2021/07/09, 17:52:46.954, 15872868031982, testhost.dll, TestExecutorExtensionManager: Loading executor NUnit.VisualStudio.TestAdapter.NUnit3TestExecutor
+TpTrace Verbose: 0 : 34924, 4, 2021/07/09, 17:52:46.955, 15872868032884, testhost.dll, TestExecutorService: Loaded the executors
+TpTrace Verbose: 0 : 34924, 4, 2021/07/09, 17:52:46.956, 15872868044421, testhost.dll, TestPluginCache.DiscoverTestExtensions: finding test extensions in assemblies endswith: TestAdapter.dll TPluginInfo: Microsoft.VisualStudio.TestPlatform.Common.ExtensionFramework.Utilities.TestSettingsProviderPluginInformation TExtension: Microsoft.VisualStudio.TestPlatform.ObjectModel.Adapter.ISettingsProvider
+TpTrace Verbose: 0 : 34924, 4, 2021/07/09, 17:52:46.956, 15872868048417, testhost.dll, TestPluginCache.GetExtensionPaths: Filtered extension paths: 
+TpTrace Verbose: 0 : 34924, 4, 2021/07/09, 17:52:46.956, 15872868048964, testhost.dll, TestPluginCache.GetExtensionPaths: Added default extension paths: C:\Users\joao.paes\Documents\work\ApiEscola\Controller.Specs\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output\NUnit3.TestAdapter.dll
+TpTrace Verbose: 0 : 34924, 4, 2021/07/09, 17:52:46.956, 15872868049286, testhost.dll, TestPluginCache.GetExtensionPaths: Added unfilterableExtensionPaths: 
+TpTrace Information: 0 : 34924, 4, 2021/07/09, 17:52:46.956, 15872868051412, testhost.dll, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Users\joao.paes\Documents\work\ApiEscola\Controller.Specs\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output
+TpTrace Verbose: 0 : 34924, 4, 2021/07/09, 17:52:46.956, 15872868052077, testhost.dll, TestPluginCache.DiscoverTestExtensions: Discovering the extensions using extension path.
+TpTrace Verbose: 0 : 34924, 4, 2021/07/09, 17:52:46.956, 15872868052434, testhost.dll, TestPluginCache.GetExtensionPaths: Filtered extension paths: 
+TpTrace Verbose: 0 : 34924, 4, 2021/07/09, 17:52:46.956, 15872868052716, testhost.dll, TestPluginCache.GetExtensionPaths: Added default extension paths: C:\Users\joao.paes\Documents\work\ApiEscola\Controller.Specs\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output\NUnit3.TestAdapter.dll
+TpTrace Verbose: 0 : 34924, 4, 2021/07/09, 17:52:46.957, 15872868052992, testhost.dll, TestPluginCache.GetExtensionPaths: Added unfilterableExtensionPaths: 
+TpTrace Verbose: 0 : 34924, 4, 2021/07/09, 17:52:46.957, 15872868053288, testhost.dll, TestPluginCache.DiscoverTestExtensions: Discovering the extensions using allExtensionPaths: C:\Users\joao.paes\Documents\work\ApiEscola\Controller.Specs\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output\NUnit3.TestAdapter.dll
+TpTrace Information: 0 : 34924, 4, 2021/07/09, 17:52:46.957, 15872868053734, testhost.dll, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Users\joao.paes\Documents\work\ApiEscola\Controller.Specs\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output
+TpTrace Verbose: 0 : 34924, 4, 2021/07/09, 17:52:46.957, 15872868056113, testhost.dll, TestPluginCache: Discovered the extensions using extension path ''.
+TpTrace Verbose: 0 : 34924, 4, 2021/07/09, 17:52:46.957, 15872868056503, testhost.dll, TestPluginCache: Discoverers are ''.
+TpTrace Verbose: 0 : 34924, 4, 2021/07/09, 17:52:46.957, 15872868056897, testhost.dll, TestPluginCache: Executors are 'executor://NUnit3TestExecutor'.
+TpTrace Verbose: 0 : 34924, 4, 2021/07/09, 17:52:46.957, 15872868057532, testhost.dll, TestPluginCache: Setting providers are ''.
+TpTrace Verbose: 0 : 34924, 4, 2021/07/09, 17:52:46.957, 15872868057849, testhost.dll, TestPluginCache: Loggers are ''.
+TpTrace Verbose: 0 : 34924, 4, 2021/07/09, 17:52:46.958, 15872868068109, testhost.dll, TestExecutorService: Loaded the settings providers
+TpTrace Information: 0 : 34924, 4, 2021/07/09, 17:52:46.958, 15872868069073, testhost.dll, TestExecutorService: Loaded the extensions
+TpTrace Information: 0 : 34924, 4, 2021/07/09, 17:52:47.056, 15872869050273, testhost.dll, TestDiscoveryManager: Discovering tests from sources C:\Users\joao.paes\Documents\work\ApiEscola\Controller.Specs\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output\Controller.Specs.dll
+TpTrace Verbose: 0 : 34924, 4, 2021/07/09, 17:52:47.060, 15872869087676, testhost.dll, TestPluginCache.DiscoverTestExtensions: finding test extensions in assemblies endswith: TestAdapter.dll TPluginInfo: Microsoft.VisualStudio.TestPlatform.Common.ExtensionFramework.Utilities.TestDiscovererPluginInformation TExtension: Microsoft.VisualStudio.TestPlatform.ObjectModel.Adapter.ITestDiscoverer
+TpTrace Verbose: 0 : 34924, 4, 2021/07/09, 17:52:47.060, 15872869090574, testhost.dll, TestPluginCache.GetExtensionPaths: Filtered extension paths: 
+TpTrace Verbose: 0 : 34924, 4, 2021/07/09, 17:52:47.060, 15872869091321, testhost.dll, TestPluginCache.GetExtensionPaths: Added default extension paths: C:\Users\joao.paes\Documents\work\ApiEscola\Controller.Specs\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output\NUnit3.TestAdapter.dll
+TpTrace Verbose: 0 : 34924, 4, 2021/07/09, 17:52:47.060, 15872869091924, testhost.dll, TestPluginCache.GetExtensionPaths: Added unfilterableExtensionPaths: 
+TpTrace Information: 0 : 34924, 4, 2021/07/09, 17:52:47.061, 15872869093971, testhost.dll, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Users\joao.paes\Documents\work\ApiEscola\Controller.Specs\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output
+TpTrace Verbose: 0 : 34924, 4, 2021/07/09, 17:52:47.061, 15872869094653, testhost.dll, TestPluginCache.DiscoverTestExtensions: Discovering the extensions using extension path.
+TpTrace Verbose: 0 : 34924, 4, 2021/07/09, 17:52:47.061, 15872869095164, testhost.dll, TestPluginCache.GetExtensionPaths: Filtered extension paths: 
+TpTrace Verbose: 0 : 34924, 4, 2021/07/09, 17:52:47.061, 15872869095609, testhost.dll, TestPluginCache.GetExtensionPaths: Added default extension paths: C:\Users\joao.paes\Documents\work\ApiEscola\Controller.Specs\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output\NUnit3.TestAdapter.dll
+TpTrace Verbose: 0 : 34924, 4, 2021/07/09, 17:52:47.061, 15872869096027, testhost.dll, TestPluginCache.GetExtensionPaths: Added unfilterableExtensionPaths: 
+TpTrace Verbose: 0 : 34924, 4, 2021/07/09, 17:52:47.061, 15872869096637, testhost.dll, TestPluginCache.DiscoverTestExtensions: Discovering the extensions using allExtensionPaths: C:\Users\joao.paes\Documents\work\ApiEscola\Controller.Specs\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output\NUnit3.TestAdapter.dll
+TpTrace Information: 0 : 34924, 4, 2021/07/09, 17:52:47.061, 15872869097294, testhost.dll, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Users\joao.paes\Documents\work\ApiEscola\Controller.Specs\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output
+TpTrace Information: 0 : 34924, 4, 2021/07/09, 17:52:47.065, 15872869136997, testhost.dll, AssemblyResolver.OnResolve: System.ComponentModel.Primitives.resources: Resolving assembly.
+TpTrace Information: 0 : 34924, 4, 2021/07/09, 17:52:47.065, 15872869139778, testhost.dll, AssemblyResolver.OnResolve: System.ComponentModel.Primitives.resources: Failed to load assembly.
+TpTrace Verbose: 0 : 34924, 4, 2021/07/09, 17:52:47.066, 15872869151892, testhost.dll, CurrentDomain_AssemblyResolve: Resolving assembly 'System.ComponentModel.Primitives.resources'.
+TpTrace Information: 0 : 34924, 4, 2021/07/09, 17:52:47.067, 15872869153489, testhost.dll, AssemblyResolver.OnResolve: System.ComponentModel.Primitives.resources: Resolving assembly.
+TpTrace Information: 0 : 34924, 4, 2021/07/09, 17:52:47.067, 15872869154276, testhost.dll, AssemblyResolver.OnResolve: System.ComponentModel.Primitives.resources: Resolved from cache.
+TpTrace Verbose: 0 : 34924, 4, 2021/07/09, 17:52:47.067, 15872869154949, testhost.dll, CurrentDomain_AssemblyResolve: Resolving assembly 'System.ComponentModel.Primitives.resources'.
+TpTrace Verbose: 0 : 34924, 4, 2021/07/09, 17:52:47.067, 15872869155528, testhost.dll, CurrentDomainAssemblyResolve: Failed to resolve assembly 'System.ComponentModel.Primitives.resources'.
+TpTrace Verbose: 0 : 34924, 4, 2021/07/09, 17:52:47.068, 15872869162787, testhost.dll, CurrentDomainAssemblyResolve: Failed to resolve assembly 'System.ComponentModel.Primitives.resources'.
+TpTrace Information: 0 : 34924, 4, 2021/07/09, 17:52:47.068, 15872869168133, testhost.dll, AssemblyResolver.OnResolve: System.ComponentModel.Primitives.resources: Resolving assembly.
+TpTrace Information: 0 : 34924, 4, 2021/07/09, 17:52:47.068, 15872869169627, testhost.dll, AssemblyResolver.OnResolve: System.ComponentModel.Primitives.resources: Resolved from cache.
+TpTrace Verbose: 0 : 34924, 4, 2021/07/09, 17:52:47.068, 15872869170397, testhost.dll, CurrentDomain_AssemblyResolve: Resolving assembly 'System.ComponentModel.Primitives.resources'.
+TpTrace Verbose: 0 : 34924, 4, 2021/07/09, 17:52:47.068, 15872869170975, testhost.dll, CurrentDomainAssemblyResolve: Failed to resolve assembly 'System.ComponentModel.Primitives.resources'.
+TpTrace Verbose: 0 : 34924, 4, 2021/07/09, 17:52:47.070, 15872869190635, testhost.dll, TestPluginCache: Discovered the extensions using extension path ''.
+TpTrace Verbose: 0 : 34924, 4, 2021/07/09, 17:52:47.070, 15872869192195, testhost.dll, TestPluginCache: Discoverers are 'NUnit.VisualStudio.TestAdapter.NUnit3TestDiscoverer, NUnit3.TestAdapter, Version=3.16.1.0, Culture=neutral, PublicKeyToken=4cb40d35494691ac'.
+TpTrace Verbose: 0 : 34924, 4, 2021/07/09, 17:52:47.070, 15872869192633, testhost.dll, TestPluginCache: Executors are 'executor://NUnit3TestExecutor'.
+TpTrace Verbose: 0 : 34924, 4, 2021/07/09, 17:52:47.071, 15872869193026, testhost.dll, TestPluginCache: Setting providers are ''.
+TpTrace Verbose: 0 : 34924, 4, 2021/07/09, 17:52:47.071, 15872869193305, testhost.dll, TestPluginCache: Loggers are ''.
+TpTrace Information: 0 : 34924, 4, 2021/07/09, 17:52:47.082, 15872869312086, testhost.dll, PEReaderHelper.GetAssemblyType: Determined assemblyType:'Managed' for source: 'C:\Users\joao.paes\Documents\work\ApiEscola\Controller.Specs\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output\Controller.Specs.dll'
+TpTrace Verbose: 0 : 34924, 4, 2021/07/09, 17:52:47.090, 15872869385388, testhost.dll, BaseRunTests.RunTestInternalWithExecutors: Running tests for executor://NUnit3TestExecutor
+TpTrace Information: 0 : 34924, 4, 2021/07/09, 17:52:47.091, 15872869396104, testhost.dll, AssemblyResolver.OnResolve: nunit.engine: Resolving assembly.
+TpTrace Information: 0 : 34924, 4, 2021/07/09, 17:52:47.092, 15872869405861, testhost.dll, AssemblyResolver.OnResolve: Resolved assembly: nunit.engine, from path: C:\Users\joao.paes\Documents\work\ApiEscola\Controller.Specs\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output\nunit.engine.dll
+TpTrace Information: 0 : 34924, 4, 2021/07/09, 17:52:47.113, 15872869616213, testhost.dll, NUnit Adapter 3.16.1.0: Test execution started
+TpTrace Verbose: 0 : 34924, 4, 2021/07/09, 17:52:47.113, 15872869618042, testhost.dll, TestRequestHandler.SendData:  sending data from testhost: {"Version":2,"MessageType":"TestSession.Message","Payload":{"MessageLevel":0,"Message":"NUnit Adapter 3.16.1.0: Test execution started"}}
+TpTrace Information: 0 : 34924, 4, 2021/07/09, 17:52:47.129, 15872869772938, testhost.dll, Running all tests in C:\Users\joao.paes\Documents\work\ApiEscola\Controller.Specs\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output\Controller.Specs.dll
+TpTrace Verbose: 0 : 34924, 4, 2021/07/09, 17:52:47.129, 15872869775573, testhost.dll, TestRequestHandler.SendData:  sending data from testhost: {"Version":2,"MessageType":"TestSession.Message","Payload":{"MessageLevel":0,"Message":"Running all tests in C:\\Users\\joao.paes\\Documents\\work\\ApiEscola\\Controller.Specs\\bin\\Debug\\netcoreapp3.1\\fine-code-coverage\\build-output\\Controller.Specs.dll"}}
+TpTrace Information: 0 : 34924, 4, 2021/07/09, 17:52:47.172, 15872870203974, testhost.dll, AssemblyResolver.OnResolve: Mono.Cecil: Resolving assembly.
+TpTrace Information: 0 : 34924, 4, 2021/07/09, 17:52:47.172, 15872870206266, testhost.dll, AssemblyResolver.OnResolve: Mono.Cecil: Failed to load assembly.
+TpTrace Information: 0 : 34924, 4, 2021/07/09, 17:52:47.334, 15872871823862, testhost.dll,    NUnit3TestExecutor converted 2 of 2 NUnit test cases
+TpTrace Verbose: 0 : 34924, 4, 2021/07/09, 17:52:47.334, 15872871825209, testhost.dll, TestRequestHandler.SendData:  sending data from testhost: {"Version":2,"MessageType":"TestSession.Message","Payload":{"MessageLevel":0,"Message":"   NUnit3TestExecutor converted 2 of 2 NUnit test cases"}}
+TpTrace Verbose: 0 : 34924, 12, 2021/07/09, 17:52:47.370, 15872872192313, testhost.dll, TestExecutionRecorder.RecordStart: Starting test: ApiEscola.ControllersFixture.TesteFixture.GetEscolaId_Must_Return_True.
+TpTrace Verbose: 0 : 34924, 12, 2021/07/09, 17:52:47.461, 15872873095130, testhost.dll, TestExecutionRecorder.RecordEnd: test: ApiEscola.ControllersFixture.TesteFixture.GetEscolaId_Must_Return_True execution completed.
+TpTrace Verbose: 0 : 34924, 12, 2021/07/09, 17:52:47.474, 15872873227091, testhost.dll, TestExecutionRecorder.RecordResult: Received result for test: ApiEscola.ControllersFixture.TesteFixture.GetEscolaId_Must_Return_True.
+TpTrace Warning: 0 : 34924, 12, 2021/07/09, 17:52:47.478, 15872873265202, testhost.dll, InProgressTests is null
+TpTrace Warning: 0 : 34924, 12, 2021/07/09, 17:52:47.480, 15872873289377, testhost.dll, TestRunCache: No test found corresponding to testResult 'GetEscolaId_Must_Return_True  Com falha
+  Mensagem: System.InvalidOperationException : No application configured. Please specify startup via IWebHostBuilder.UseStartup, IWebHostBuilder.Configure, injecting IStartup or specifying the startup assembly via StartupAssemblyKey in the web host configuration.
+  StackTrace:
+   at Microsoft.AspNetCore.Hosting.WebHost.EnsureStartup()
+   at Microsoft.AspNetCore.Hosting.WebHost.EnsureApplicationServices()
+   at Microsoft.AspNetCore.Hosting.WebHost.Initialize()
+   at Microsoft.AspNetCore.Hosting.WebHostBuilder.Build()
+   at Microsoft.AspNetCore.TestHost.TestServer..ctor(IWebHostBuilder builder, IFeatureCollection featureCollection)
+   at Microsoft.AspNetCore.TestHost.TestServer..ctor(IWebHostBuilder builder)
+   at ApiEscola.Controllers.Specs.CommonBase.CreateServer() in C:\Users\joao.paes\Documents\work\ApiEscola\Controller.Specs\CommonBase.cs:line 29
+   at ApiEscola.ControllersFixture.TesteFixture.GetEscolaId_Must_Return_True() in C:\Users\joao.paes\Documents\work\ApiEscola\Controller.Specs\EscolaControllerFixture.cs:line 21
+   at NUnit.Framework.Internal.TaskAwaitAdapter.GenericAdapter`1.GetResult()
+   at NUnit.Framework.Internal.AsyncToSyncAdapter.Await(Func`1 invoke)
+   at NUnit.Framework.Internal.Commands.TestMethodCommand.RunTestMethod(TestExecutionContext context)
+   at NUnit.Framework.Internal.Commands.TestMethodCommand.Execute(TestExecutionContext context)
+   at NUnit.Framework.Internal.Execution.SimpleWorkItem.PerformWork()' in inProgress list.
+TpTrace Verbose: 0 : 34924, 12, 2021/07/09, 17:52:47.480, 15872873290881, testhost.dll, TestExecutionRecorder.RecordStart: Starting test: ApiEscola.ControllersFixture.TesteFixture.Testes.
+TpTrace Verbose: 0 : 34924, 12, 2021/07/09, 17:52:47.481, 15872873301556, testhost.dll, TestExecutionRecorder.RecordEnd: test: ApiEscola.ControllersFixture.TesteFixture.Testes execution completed.
+TpTrace Verbose: 0 : 34924, 12, 2021/07/09, 17:52:47.482, 15872873309556, testhost.dll, TestExecutionRecorder.RecordResult: Received result for test: ApiEscola.ControllersFixture.TesteFixture.Testes.
+TpTrace Warning: 0 : 34924, 12, 2021/07/09, 17:52:47.482, 15872873310720, testhost.dll, InProgressTests is null
+TpTrace Warning: 0 : 34924, 12, 2021/07/09, 17:52:47.482, 15872873312220, testhost.dll, TestRunCache: No test found corresponding to testResult 'Testes      Aprovado' in inProgress list.
+TpTrace Information: 0 : 34924, 4, 2021/07/09, 17:52:47.489, 15872873381933, testhost.dll, NUnit Adapter 3.16.1.0: Test execution complete
+TpTrace Verbose: 0 : 34924, 4, 2021/07/09, 17:52:47.490, 15872873383299, testhost.dll, TestRequestHandler.SendData:  sending data from testhost: {"Version":2,"MessageType":"TestSession.Message","Payload":{"MessageLevel":0,"Message":"NUnit Adapter 3.16.1.0: Test execution complete"}}
+TpTrace Verbose: 0 : 34924, 4, 2021/07/09, 17:52:47.497, 15872873457101, testhost.dll, BaseRunTests.RunTestInternalWithExecutors: Completed running tests for executor://NUnit3TestExecutor
+TpTrace Information: 0 : 34924, 4, 2021/07/09, 17:52:47.501, 15872873499383, testhost.dll, Sending test run complete
+TpTrace Verbose: 0 : 34924, 4, 2021/07/09, 17:52:47.537, 15872873860612, testhost.dll, TestRequestHandler.SendData:  sending data from testhost: {"Version":2,"MessageType":"TestExecution.Completed","Payload":{"TestRunCompleteArgs":{"TestRunStatistics":{"ExecutedTests":2,"Stats":{"Failed":1,"Passed":1}},"IsCanceled":false,"IsAborted":false,"Error":null,"AttachmentSets":[],"ElapsedTimeInRunningTests":"00:00:00.4119855","Metrics":{}},"LastRunTests":{"NewTestResults":[{"TestCase":{"Id":"5b7bc0bc-1506-536c-8591-69f7c0d99454","FullyQualifiedName":"ApiEscola.ControllersFixture.TesteFixture.GetEscolaId_Must_Return_True","DisplayName":"GetEscolaId_Must_Return_True","ExecutorUri":"executor://NUnit3TestExecutor","Source":"C:\\Users\\joao.paes\\Documents\\work\\ApiEscola\\Controller.Specs\\bin\\Debug\\netcoreapp3.1\\fine-code-coverage\\build-output\\Controller.Specs.dll","CodeFilePath":null,"LineNumber":0,"Properties":[]},"Attachments":[],"Outcome":2,"ErrorMessage":"System.InvalidOperationException : No application configured. Please specify startup via IWebHostBuilder.UseStartup, IWebHostBuilder.Configure, injecting IStartup or specifying the startup assembly via StartupAssemblyKey in the web host configuration.","ErrorStackTrace":"   at Microsoft.AspNetCore.Hosting.WebHost.EnsureStartup()\r\n   at Microsoft.AspNetCore.Hosting.WebHost.EnsureApplicationServices()\r\n   at Microsoft.AspNetCore.Hosting.WebHost.Initialize()\r\n   at Microsoft.AspNetCore.Hosting.WebHostBuilder.Build()\r\n   at Microsoft.AspNetCore.TestHost.TestServer..ctor(IWebHostBuilder builder, IFeatureCollection featureCollection)\r\n   at Microsoft.AspNetCore.TestHost.TestServer..ctor(IWebHostBuilder builder)\r\n   at ApiEscola.Controllers.Specs.CommonBase.CreateServer() in C:\\Users\\joao.paes\\Documents\\work\\ApiEscola\\Controller.Specs\\CommonBase.cs:line 29\r\n   at ApiEscola.ControllersFixture.TesteFixture.GetEscolaId_Must_Return_True() in C:\\Users\\joao.paes\\Documents\\work\\ApiEscola\\Controller.Specs\\EscolaControllerFixture.cs:line 21\r\n   at NUnit.Framework.Internal.TaskAwaitAdapter.GenericAdapter`1.GetResult()\r\n   at NUnit.Framework.Internal.AsyncToSyncAdapter.Await(Func`1 invoke)\r\n   at NUnit.Framework.Internal.Commands.TestMethodCommand.RunTestMethod(TestExecutionContext context)\r\n   at NUnit.Framework.Internal.Commands.TestMethodCommand.Execute(TestExecutionContext context)\r\n   at NUnit.Framework.Internal.Execution.SimpleWorkItem.PerformWork()","DisplayName":"GetEscolaId_Must_Return_True","Messages":[],"ComputerName":"CSC001NB0711","Duration":"00:00:00.0768030","StartTime":"2021-07-09T20:52:47+00:00","EndTime":"2021-07-09T20:52:47+00:00","Properties":[]},{"TestCase":{"Id":"b7556383-f061-dc6a-3c21-1045ac708ca0","FullyQualifiedName":"ApiEscola.ControllersFixture.TesteFixture.Testes","DisplayName":"Testes","ExecutorUri":"executor://NUnit3TestExecutor","Source":"C:\\Users\\joao.paes\\Documents\\work\\ApiEscola\\Controller.Specs\\bin\\Debug\\netcoreapp3.1\\fine-code-coverage\\build-output\\Controller.Specs.dll","CodeFilePath":null,"LineNumber":0,"Properties":[]},"Attachments":[],"Outcome":1,"ErrorMessage":null,"ErrorStackTrace":null,"DisplayName":"Testes","Messages":[],"ComputerName":"CSC001NB0711","Duration":"00:00:00.0020830","StartTime":"2021-07-09T20:52:47+00:00","EndTime":"2021-07-09T20:52:47+00:00","Properties":[]}],"TestRunStatistics":{"ExecutedTests":2,"Stats":{"Failed":1,"Passed":1}},"ActiveTests":[]},"RunAttachments":[],"ExecutorUris":["executor://nunit3testexecutor/"]}}
+TpTrace Verbose: 0 : 34924, 4, 2021/07/09, 17:52:47.538, 15872873865606, testhost.dll, BaseRunTests.RunTests: Run is complete.
+TpTrace Verbose: 0 : 34924, 9, 2021/07/09, 17:52:47.542, 15872873905344, testhost.dll, TcpClientExtensions.MessageLoopAsync: NotifyDataAvailable remoteEndPoint: [::ffff:127.0.0.1]:50302 localEndPoint: [::ffff:127.0.0.1]:50303
+TpTrace Information: 0 : 34924, 9, 2021/07/09, 17:52:47.542, 15872873906883, testhost.dll, TestRequestHandler.ProcessRequests: received message: (TestSession.Terminate) -> null
+TpTrace Information: 0 : 34924, 9, 2021/07/09, 17:52:47.542, 15872873907278, testhost.dll, Session End message received from server. Closing the connection.
+TpTrace Information: 0 : 34924, 9, 2021/07/09, 17:52:47.542, 15872873910952, testhost.dll, SocketClient.Stop: Stop communication from server endpoint: 127.0.0.1:050302
+TpTrace Information: 0 : 34924, 9, 2021/07/09, 17:52:47.542, 15872873911353, testhost.dll, SocketClient: Stop: Cancellation requested. Stopping message loop.
+TpTrace Verbose: 0 : 34924, 9, 2021/07/09, 17:52:47.542, 15872873912285, testhost.dll, LengthPrefixCommunicationChannel.Dispose: Dispose reader and writer.
+TpTrace Information: 0 : 34924, 9, 2021/07/09, 17:52:47.542, 15872873912750, testhost.dll, Closing the connection !
+TpTrace Information: 0 : 34924, 9, 2021/07/09, 17:52:47.543, 15872873914673, testhost.dll, SocketClient.PrivateStop: Stop communication from server endpoint: 127.0.0.1:050302, error:
+TpTrace Verbose: 0 : 34924, 9, 2021/07/09, 17:52:47.543, 15872873918646, testhost.dll, LengthPrefixCommunicationChannel.Dispose: Dispose reader and writer.
+TpTrace Information: 0 : 34924, 1, 2021/07/09, 17:52:47.543, 15872873918718, testhost.dll, Closing the connection !
+TpTrace Information: 0 : 34924, 1, 2021/07/09, 17:52:47.543, 15872873919729, testhost.dll, SocketClient.Stop: Stop communication from server endpoint: 127.0.0.1:050302
+TpTrace Verbose: 0 : 34924, 9, 2021/07/09, 17:52:47.543, 15872873919235, testhost.dll, TcpClientExtensions.MessageLoopAsync: exiting MessageLoopAsync remoteEndPoint: [::ffff:127.0.0.1]:50302 localEndPoint: [::ffff:127.0.0.1]:50303
+TpTrace Verbose: 0 : 34924, 1, 2021/07/09, 17:52:47.543, 15872873920546, testhost.dll, LengthPrefixCommunicationChannel.Dispose: Dispose reader and writer.
+TpTrace Information: 0 : 34924, 1, 2021/07/09, 17:52:47.543, 15872873921905, testhost.dll, Testhost process exiting.

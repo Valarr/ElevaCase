@@ -1,0 +1,39 @@
+<div>
+  <a class="btn btn-info mb-2" routerLink="new">Novo</a>
+
+  <table class="table">
+    <tr>
+      <th>ID Escola</th>
+      <th>Nome Escola</th>
+      <th>Endereço</th>
+      <th>Telefone</th>
+      <th>Ações</th>       
+    </tr>
+
+    <tr *ngFor = "let escola of listaEscolas">
+
+      <td *ngFor = "let column of headers">
+        {{escola[column]}}
+      </td>
+
+      <td>
+        <a 
+          class="btn btn-secondary btn-sm"
+          [routerLink]="[escola.escolaId, 'edit']"
+        >
+          Editar
+        </a>
+
+        <button
+          type="button" 
+          class="btn btn-danger btn-sm ml-2"
+          (click)="deleteSchool(escola.escolaId)"
+        >
+          Deletar
+        </button>
+      </td>
+    </tr>
+  
+  </table>
+</div>
+

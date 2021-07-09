@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiEscola", "ApiCartao\ApiEscola.csproj", "{ED3CB682-17FA-48B7-B6BF-EE728E92204A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Controller.Specs", "Controller.Specs\Controller.Specs.csproj", "{55949FB4-1E2E-4574-9B18-9EC91A595128}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ED3CB682-17FA-48B7-B6BF-EE728E92204A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED3CB682-17FA-48B7-B6BF-EE728E92204A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED3CB682-17FA-48B7-B6BF-EE728E92204A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED3CB682-17FA-48B7-B6BF-EE728E92204A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55949FB4-1E2E-4574-9B18-9EC91A595128}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55949FB4-1E2E-4574-9B18-9EC91A595128}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55949FB4-1E2E-4574-9B18-9EC91A595128}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55949FB4-1E2E-4574-9B18-9EC91A595128}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {35617485-7977-424B-8B12-FBFDB309BF9E}
+	EndGlobalSection
+EndGlobal
